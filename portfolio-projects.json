@@ -1,0 +1,42 @@
+[
+  {
+    "pub" : "new york magazine",
+    "headline" : " 42nd Street Walking Tour",
+    "subhead" : "Eight iconic locations down one street in New York City",
+    "url" : "http://nymag.com/daily/intelligencer/2017/04/nyc-walking-tour-of-42nd-street.html",
+    "thumbnail" : "projects/walking-tour.gif",
+    "id" : ""
+  },
+  {
+    "pub" : "new york magazine",
+    "headline" : "Let’s add some nuance to the ‘Two Americas’ narrative",
+    "subhead" : "Looking at each state through parts of the Human Development Index",
+    "url" : "http://nymag.com/scienceofus/2017/03/lets-add-some-nuance-to-the-two-americas-narrative.html",
+    "thumbnail" : "projects/two-americas.png",
+    "id" : ""
+  },
+  {
+    "pub" : "knight lab",
+    "headline" : "Romaine",
+    "subhead" : "A new way to choose courses",
+    "url" : "https://romaine.herokuapp.com/",
+    "thumbnail" : "projects/romaine.png",
+    "id" : ""
+  },
+  {
+    "pub" : "fun",
+    "headline" : "Home of the Chicago Cubs and 'The Basement'",
+    "subhead" : "(Four-piece display, acrylic on canvas)",
+    "url" : "print/wrigley.png",
+    "thumbnail" : "print/wrigley.png",
+    "id" : "wrigley"
+  },
+  {
+    "pub" : "fun",
+    "headline" : "Buenos Aires: January 17-23, 2016",
+    "subhead" : "(Video log)",
+    "url" : "https://vimeo.com/152117566",
+    "thumbnail" : "projects/ba-vid.png",
+    "id" : ""
+  }
+]
