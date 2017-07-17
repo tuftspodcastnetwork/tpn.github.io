@@ -97,7 +97,7 @@ a:hover {
 }
 
 
-#fun-section {
+#producers-section {
 	display: none;
 	margin: 10px auto 0 auto;
 }
@@ -343,7 +343,7 @@ span.subhead {
 
 
 @media screen and (max-width: 600px) {
-	#work-section, #fun-section {
+	#work-section, #producers-section {
 		width: 90%;
 	}
 
