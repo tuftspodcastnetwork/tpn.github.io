@@ -1,646 +1,94 @@
+<!DOCTYPE html>
 
-<!doctype html>
-<html itemscope="itemscope" itemtype="http://schema.org/WebPage" lang="en-US">
+<html>
 <head>
-<meta charset="UTF-8">
+  <title>Ashley Wu</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+<!-- FAVICON -->
+  <link href="img/favicon-32x32.png" rel="shortcut icon" type="image/x-icon" />
+<!-- STYLES -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  </head>
+<body>
 
-<script src="//use.typekit.net/zph6dgz.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
+  <!-- HERO -->
+  <div id="name-plate">
+    <img id="hero" src="img/ash.gif">
+  </div>
 
-<title itemprop="name">Now Here This</title>
+  <!--  MAIN NAV -->
+  <div id="navBar">
+    <ul>
+      <li id="work" class="section selected-nav">
+          <p class="nav-item">work</p>
+      </li>
+      <li id="fun" class="section">
+          <p class="nav-item">fun</p>
+      </li>
+      <li id="about" class="section">
+          <p class="nav-item">about</p> 
+      </li>
+      <li class="section">
+        <a href="resume.pdf" target="_blank">
+          <p class="nav-item">résumé</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <!-- END MAIN NAV -->
 
+  <!-- MAIN CONTAINER -->
 
-<!-- wp_header -->
-<script>document.documentElement.className += " js";</script>
-<!-- All in One SEO Pack 2.3.11.4 by Michael Torbert of Semper Fi Web Design[228,264] -->
-<meta name="description"  content="A platform for student-produced audio storytelling, featuring memoirs, interviews, investigative journalism, live storytelling, and spoken word." />
+  <div id="main-container">
 
-<meta name="keywords"  content="audio storytelling, student radio, radio magazine, podcast magazine, Brown radio, Brown audio, Brown storytelling, Brown storytellers, student storytelling" />
+    <div id="work-section" class="container-fluid"></div> <!-- from spreadsheet/json -->
 
-<link rel="canonical" href="http://www.nowherethis.org/" />
-<!-- /all in one seo pack -->
-<link rel='dns-prefetch' href='//connect.soundcloud.com' />
-<link rel='dns-prefetch' href='//platform-api.sharethis.com' />
-<link rel='dns-prefetch' href='//netdna.bootstrapcdn.com' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Now Here This &raquo; Feed" href="http://www.nowherethis.org/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Now Here This &raquo; Comments Feed" href="http://www.nowherethis.org/comments/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Now Here This &raquo; Home Comments Feed" href="http://www.nowherethis.org/home/feed/" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.nowherethis.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8"}};
-			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='bbp-default-css'  href='http://www.nowherethis.org/wp-content/plugins/bbpress/templates/default/css/bbpress.css?ver=2.5.12-6148' type='text/css' media='screen' />
-<link rel='stylesheet' id='colio-css'  href='http://www.nowherethis.org/wp-content/plugins/colio/colio.css?ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='colio-grid-css'  href='http://www.nowherethis.org/wp-content/plugins/colio/grid.css?ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='colio-white-css'  href='http://www.nowherethis.org/wp-content/plugins/colio/themes/white.css?ver=1.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fancybox-css'  href='http://www.nowherethis.org/wp-content/plugins/colio/themes/fancybox/jquery.fancybox.css?ver=1.3' type='text/css' media='all' />
-<link rel='stylesheet' id='fullwidth-audio-player-tracks-css'  href='http://www.nowherethis.org/wp-content/plugins/fullwidth-audio-player/css/fullwidthAudioPlayer-tracks.css?ver=1.1.61' type='text/css' media='all' />
-<link rel='stylesheet' id='fullwidth-audio-player-css'  href='http://www.nowherethis.org/wp-content/plugins/fullwidth-audio-player/css/jquery.fullwidthAudioPlayer.css?ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='font-awesome-4-css'  href='https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css?ver=4.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='parent-style-css'  href='http://www.nowherethis.org/wp-content/themes/basic/style.css?ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='child-style-css'  href='http://www.nowherethis.org/wp-content/themes/basic-child/style.css?ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='themify-framework-css'  href='http://www.nowherethis.org/wp-content/themes/basic/themify/css/themify.framework.css?ver=2.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='themify-builder-style-css'  href='http://www.nowherethis.org/wp-content/themes/basic/themify/themify-builder/css/themify-builder-style.css?ver=2.1.0' type='text/css' media='all' />
-<style id='themify-builder-style-inline-css' type='text/css'>
-.js.csstransitions .module.wow, .js.csstransitions .fly-in > .post, .js.csstransitions .fly-in .row_inner > .tb-column, .js.csstransitions .fade-in > .post, .js.csstransitions .fade-in .row_inner > .tb-column, .js.csstransitions .slide-up > .post, .js.csstransitions .slide-up .row_inner > .tb-column{ visibility:hidden; }
-</style>
-<link rel='stylesheet' id='themify-animate-css'  href='http://www.nowherethis.org/wp-content/themes/basic/themify/themify-builder/css/animate.min.css?ver=2.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='theme-style-css'  href='http://www.nowherethis.org/wp-content/themes/basic-child/style.css?ver=1.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='themify-media-queries-css'  href='http://www.nowherethis.org/wp-content/themes/basic/media-queries.css?ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Old+Standard+TT%3A400%2C400italic%2C700&#038;subset=latin%2Clatin-ext&#038;ver=4.8' type='text/css' media='all' />
-<link rel='stylesheet' id='magnific-css'  href='http://www.nowherethis.org/wp-content/themes/basic/themify/css/lightbox.css?ver=2.1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='themify-icon-font-css'  href='http://www.nowherethis.org/wp-content/themes/basic/themify/fontawesome/css/font-awesome.min.css?ver=2.1.0' type='text/css' media='all' />
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/fullwidth-audio-player/js/soundmanager2-nodebug-jsmin.js?ver=2.97a'></script>
-<script type='text/javascript' src='https://connect.soundcloud.com/sdk.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/fullwidth-audio-player/js/jquery.fullwidthAudioPlayer.min.js?ver=1.6'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/js/video.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/js/bigvideo.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/themify-builder/js/themify.scroll-highlight.js?ver=4.8'></script>
-<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#product=ga'></script>
-<link rel='https://api.w.org/' href='http://www.nowherethis.org/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.nowherethis.org/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.nowherethis.org/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 4.8" />
-<link rel='shortlink' href='http://www.nowherethis.org/' />
-<link rel="alternate" type="application/json+oembed" href="http://www.nowherethis.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.nowherethis.org%2F" />
-<link rel="alternate" type="text/xml+oembed" href="http://www.nowherethis.org/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.nowherethis.org%2F&#038;format=xml" />
-<style type="text/css">#colio_features .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_features .colio-inner .colio-button { background-color: #65909b; } #colio_features .colio-inner .colio-view { background-color: #17819b; } #colio_features .colio-inner .colio-view { background-color: rgba(23,129,155,0.5); } #colio_features .colio-summary h4 a { color: #444; } #colio_features .colio-summary h4 a:hover { color: #999; } #colio_features .colio-summary h4 { font-size: 14px; } #colio_features .colio-summary p {color: #999; } #colio_features .colio-summary p {font-size: 12px; } #colio_viewport_features a { color: #dcc596; } #colio_viewport_features .colio-navigation a { background-color: #dcc596; } #colio_viewport_features .colio-feed li a { background-color: #dcc596; } #colio_viewport_features .flex-active { background-color: #dcc596; } #colio_home .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_home .colio-inner .colio-button { background-color: #65909b; } #colio_home .colio-inner .colio-view { background-color: #17819b; } #colio_home .colio-inner .colio-view { background-color: rgba(23,129,155,0.5); } #colio_home .colio-summary h4 a { color: #444; } #colio_home .colio-summary h4 a:hover { color: #999; } #colio_home .colio-summary h4 { font-size: 14px; } #colio_home .colio-summary p {color: #999; } #colio_home .colio-summary p {font-size: 12px; } #colio_viewport_home a { color: #dcc596; } #colio_viewport_home .colio-navigation a { background-color: #dcc596; } #colio_viewport_home .colio-feed li a { background-color: #dcc596; } #colio_viewport_home .flex-active { background-color: #dcc596; } #colio_brown_storytellers .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_brown_storytellers .colio-inner .colio-button { background-color: #65909b; } #colio_brown_storytellers .colio-inner .colio-view { background-color: #17819b; } #colio_brown_storytellers .colio-inner .colio-view { background-color: rgba(23,129,155,0.5); } #colio_brown_storytellers .colio-summary h4 a { color: #444; } #colio_brown_storytellers .colio-summary h4 a:hover { color: #999; } #colio_brown_storytellers .colio-summary h4 { font-size: 14px; } #colio_brown_storytellers .colio-summary p {color: #999; } #colio_brown_storytellers .colio-summary p {font-size: 12px; } #colio_viewport_brown_storytellers a { color: #dcc596; } #colio_viewport_brown_storytellers .colio-navigation a { background-color: #dcc596; } #colio_viewport_brown_storytellers .colio-feed li a { background-color: #dcc596; } #colio_viewport_brown_storytellers .flex-active { background-color: #dcc596; } #colio_spoken_word .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_spoken_word .colio-inner .colio-button { background-color: #65909b; } #colio_spoken_word .colio-inner .colio-view { background-color: #17819b; } #colio_spoken_word .colio-inner .colio-view { background-color: rgba(23,129,155,0.5); } #colio_spoken_word .colio-summary h4 a { color: #444; } #colio_spoken_word .colio-summary h4 a:hover { color: #999; } #colio_spoken_word .colio-summary h4 { font-size: 14px; } #colio_spoken_word .colio-summary p {color: #999; } #colio_spoken_word .colio-summary p {font-size: 12px; } #colio_viewport_spoken_word a { color: #dcc596; } #colio_viewport_spoken_word .colio-navigation a { background-color: #dcc596; } #colio_viewport_spoken_word .colio-feed li a { background-color: #dcc596; } #colio_viewport_spoken_word .flex-active { background-color: #dcc596; } #colio_creative_nonfict .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_creative_nonfict .colio-inner .colio-button { background-color: #65909b; } #colio_creative_nonfict .colio-inner .colio-view { background-color: #17819b; } #colio_creative_nonfict .colio-inner .colio-view { background-color: rgba(23,129,155,0.5); } #colio_creative_nonfict .colio-summary h4 a { color: #444; } #colio_creative_nonfict .colio-summary h4 a:hover { color: #999; } #colio_creative_nonfict .colio-summary h4 { font-size: 14px; } #colio_creative_nonfict .colio-summary p {color: #999; } #colio_creative_nonfict .colio-summary p {font-size: 12px; } #colio_viewport_creative_nonfict a { color: #dcc596; } #colio_viewport_creative_nonfict .colio-navigation a { background-color: #dcc596; } #colio_viewport_creative_nonfict .colio-feed li a { background-color: #dcc596; } #colio_viewport_creative_nonfict .flex-active { background-color: #dcc596; } #colio_man_on_the_green .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_man_on_the_green .colio-inner .colio-button { background-color: #65909b; } #colio_man_on_the_green .colio-inner .colio-view { background-color: #17819b; } #colio_man_on_the_green .colio-inner .colio-view { background-color: rgba(23,129,155,0.5); } #colio_man_on_the_green .colio-summary h4 a { color: #444; } #colio_man_on_the_green .colio-summary h4 a:hover { color: #999; } #colio_man_on_the_green .colio-summary h4 { font-size: 14px; } #colio_man_on_the_green .colio-summary p {color: #999; } #colio_man_on_the_green .colio-summary p {font-size: 12px; } #colio_viewport_man_on_the_green a { color: #dcc596; } #colio_viewport_man_on_the_green .colio-navigation a { background-color: #dcc596; } #colio_viewport_man_on_the_green .colio-feed li a { background-color: #dcc596; } #colio_viewport_man_on_the_green .flex-active { background-color: #dcc596; } #colio_stories .colio-list .colio-inner { margin: 0 20px 20px 0; } #colio_stories .colio-inner .colio-button { background-color: #ff5452; } #colio_stories .colio-inner .colio-view { background-color: #000; } #colio_stories .colio-inner .colio-view { background-color: rgba(0,0,0,0.5); } #colio_stories .colio-summary h4 a { color: #444; } #colio_stories .colio-summary h4 a:hover { color: #999; } #colio_stories .colio-summary h4 { font-size: 14px; } #colio_stories .colio-summary p {color: #999; } #colio_stories .colio-summary p {font-size: 12px; } #colio_viewport_stories a { color: #dcc596; } #colio_viewport_stories .colio-navigation a { background-color: #dcc596; } #colio_viewport_stories .colio-feed li a { background-color: #dcc596; } #colio_viewport_stories .flex-active { background-color: #dcc596; } </style>
-
-
-
-<link href="http://www.nowherethis.org/wp-content/uploads/2015/01/favicon1.png" rel="shortcut icon" /> 
-
-
-	<!-- media-queries.js -->
-	<!--[if lt IE 9]>
-		<script src="http://www.nowherethis.org/wp-content/themes/basic/js/respond.js"></script>
-	<![endif]-->
-	
-	<!-- html5.js -->
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
-
-	<!--[if lt IE 9]>
-	<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
-	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script> 
-	<![endif]-->
-	<script>			function isSupportTransition() {
-				var b = document.body || document.documentElement,
-					s = b.style,
-					p = 'transition';
-
-				if (typeof s[p] == 'string') { return true; }
-
-				// Tests for vendor specific prop
-				var v = ['Moz', 'webkit', 'Webkit', 'Khtml', 'O', 'ms'];
-				p = p.charAt(0).toUpperCase() + p.substr(1);
-
-				for (var i=0; i<v.length; i++) {
-					if (typeof s[v[i] + p] == 'string') { return true; }
-				}
-				return false;
-			}
-			if ( isSupportTransition() ) {
-				document.documentElement.className += " csstransitions";	
-			}
-			</script>			<!--Themify Styling-->
-			<style type="text/css">
-#site-logo img {
- 	width: 250px; 
-}
-
-#site-logo a {
- 	width: 250px; 
-}
-
-#site-description {
- 	display: none; 
-}
-</style>
-			<!--/Themify Styling-->
-		
-<!-- BEGIN GADWP v4.9.6.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-58928578-1', 'auto');
-  ga('send', 'pageview');
-</script>
-
-<!-- END GADWP Universal Tracking -->
-
-		<style type="text/css" id="wp-custom-css">
-			/*
-Welcome to Custom CSS!
-
-To learn how this works, see http://wp.me/PEmnE-Bt
-*/
-#page-2696 .fap-track-content {
-	margin-top: -6em;
-}
-
-#page-3065 h1.page-title {
-	display: none;
-}
-
-.brown-storytellers-disclaimer {
-	font-size: .8em !important;
-	height: 140px;
-	display: block;
-	font-style: italic;
-}
-
-ul.colio-filters {
-	display: none;
-}
-
-#menu-item-76 {
-	background: url(http://www.nowherethis.org/wp-content/uploads/2015/08/fb-20.png) 7px 4px no-repeat;
-	font-size: 0;
-}
-
-#menu-item-2477 {
-	background: url(http://www.nowherethis.org/wp-content/uploads/2015/08/twitter-20.png) 7px 4px no-repeat;
-	font-size: 0;
-}
-
-#fap-wrapper, #fap-wrapper-switcher.fap-bottom {
-	border-color: #DCC596 !important;
-	background-color: #DCC596 !important;
-}
-
-#fap-playlist li {
-	border-color: #C98F0D !important;
-	background-color: #C98F0D !important;
-	color: #ffffff !important;
-}
-
-#colio_viewport_home .fap-track-content a:hover {
-	color: #ffffff !important;
-}
-
-.colio-summary h4 a.colio-link {
-	text-transform: lowercase;
-	font-style: italic;
-}
-
-#colio_viewport_stories .fap-track-content a {
-	margin-top: .5em;
-	color: #fff !important;
-	max-width: 200px;
-	padding: 10px 10px 7px;
-	font-family: "futura-pt", Helvetica, sans-serif;
-	background: #dcc596;
-	text-align: center;
-	font-size: .8em;
-	display: inline-block;
-}		</style>
-	
-</head>
-
-<body class="home page-template-default page page-id-4 skin-default webkit not-ie default_width sidebar-none no-touch">
-<div id="pagewrap" class="hfeed site">
-
-	<div id="menu-bg"></div>
-	<div id="headerwrap">
-    
-				<header id="header" class="pagewidth">
-        			<hgroup>
-				<div id="site-logo"><a href="http://www.nowherethis.org" title="Now Here This"><img src="http://www.nowherethis.org/wp-content/uploads/2015/01/logo.jpg" alt="Now Here This" title="Now Here This" /><span style="display: none;">Now Here This</span></a></div>	
-														<div id="site-description" class="site-description"><span>student-produced audio storytelling</span></div>
-							</hgroup>
-			<div id="nav-wrapper">
-			<nav>
-				<div id="menu-icon" class="mobile-button"></div>
-				<ul id="main-nav" class="main-nav"><li id="menu-item-34" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-34"><a href="http://www.nowherethis.org/">Home</a></li>
-<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-35"><a href="http://www.nowherethis.org/about/">About</a>
-<ul  class="sub-menu">
-	<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="http://www.nowherethis.org/about/">About NHT</a></li>
-	<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="http://www.nowherethis.org/about/team/">Team</a></li>
-</ul>
-</li>
-<li id="menu-item-3563" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3563"><a href="http://www.nowherethis.org/category/producers/">Producer</a>
-<ul  class="sub-menu">
-	<li id="menu-item-3566" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3566"><a href="http://www.nowherethis.org/category/producers/ari-snider/">Ari Snider</a></li>
-	<li id="menu-item-3615" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3615"><a href="http://www.nowherethis.org/category/producers/alexandra-hanesworth/">Alexandra Hanesworth</a></li>
-	<li id="menu-item-3567" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3567"><a href="http://www.nowherethis.org/category/producers/ariana-martinez/">Ariana Martinez</a></li>
-	<li id="menu-item-3616" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3616"><a href="http://www.nowherethis.org/category/producers/babette-thomas/">Babette Thomas</a></li>
-	<li id="menu-item-3568" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3568"><a href="http://www.nowherethis.org/category/producers/dorinda-fong/">Dorinda Fong</a></li>
-	<li id="menu-item-3564" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3564"><a href="http://www.nowherethis.org/category/producers/georgia-wright/">Georgia Wright</a></li>
-	<li id="menu-item-3569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3569"><a href="http://www.nowherethis.org/category/producers/grant-goldman/">Grant Goldman</a></li>
-	<li id="menu-item-3565" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3565"><a href="http://www.nowherethis.org/category/producers/isabelle-white/">Isabelle White</a></li>
-	<li id="menu-item-3570" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3570"><a href="http://www.nowherethis.org/category/producers/justin-bai/">Justin Bai</a></li>
-	<li id="menu-item-3571" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3571"><a href="http://www.nowherethis.org/category/producers/kristin-ramcharan/">Kristin Ramcharan</a></li>
-	<li id="menu-item-3572" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3572"><a href="http://www.nowherethis.org/category/producers/lauren-black/">Lauren Black</a></li>
-	<li id="menu-item-3573" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3573"><a href="http://www.nowherethis.org/category/producers/liza-yeager/">Liza Yeager</a></li>
-	<li id="menu-item-3574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3574"><a href="http://www.nowherethis.org/category/producers/margaret-barry/">Margaret Barry</a></li>
-	<li id="menu-item-3575" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3575"><a href="http://www.nowherethis.org/category/producers/mitchell-johnson/">Mitchell Johnson</a></li>
-	<li id="menu-item-3576" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3576"><a href="http://www.nowherethis.org/category/producers/stefania-gomez/">Stefania Gomez</a></li>
-	<li id="menu-item-3577" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3577"><a href="http://www.nowherethis.org/category/producers/travis-williams/">Travis Williams</a></li>
-</ul>
-</li>
-<li id="menu-item-2763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2763"><a href="http://www.nowherethis.org/stories/">Story Archive</a></li>
-<li id="menu-item-3193" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3193"><a href="https://itunes.apple.com/us/podcast/now-here-this/id975077059?mt=2">Subscribe</a></li>
-<li id="menu-item-3239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3239"><a href="http://www.nowherethis.org/contact/">Pitch</a></li>
-<li id="menu-item-36" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-36"><a href="http://www.nowherethis.org/contact/">Contact</a></li>
-<li id="menu-item-76" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a href="https://www.facebook.com/nowherethisaudio">Facebook</a></li>
-<li id="menu-item-2477" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2477"><a href="https://twitter.com/itsNowHereThis">Twitter</a></li>
-</ul>				<!-- /#main-nav --> 
-			</nav>
-           </div>
-	
-							<form method="get" id="searchform" action="http://www.nowherethis.org/">
-	<input type="text" name="s" id="s"  placeholder="Search">
-</form>				
-			<div class="social-widget">
-					
-									<div class="rss"><a href="http://www.nowherethis.org/feed/">RSS</a></div>
-							</div>
-			<!-- /.social-widget -->
-				</header>
-		<!-- /#header -->
-        				
-	</div>
-	<!-- /#headerwrap -->
-	
-	<div id="body" class="clearfix">
+    <div id="fun-section" class="container-fluid"></div> <!-- from spreadsheet/json -->
     
 
-<!-- layout-container -->
-<div id="layout" class="pagewidth clearfix">	
+    <!-- ABOUT SECTION -->
+    <div id="about-section">
+      <img src="img/ash.png" id="headshot">
+      <p id="bio">
+        <span>Hi I'm Ashley!</span><br>
+        (Ashwu if you're into nicknames)
+        <br><br>
+        I'm a graphics journalist and front-end developer at New York Magazine. I recently graduated from Northwestern University with a bachelor's in journalism and a Spanish minor. Past gigs include <a href="https://twitter.com/PostGraphics">The Washington Post graphics team</a>, <a href="http://knightlab.northwestern.edu/">Knight Lab</a>, <a href="https://twitter.com/LATimesGraphics">Los Angeles Times graphics team</a> and the <a href="https://twitter.com/LNdata">LA NACION data team</a> in Buenos Aires.
+        <br><br>
+        I enjoy cooking massive meals, wearing fun socks, speaking Spanglish, rewatching The Office and listening to <a href="https://www.youtube.com/watch?v=b8-tXG8KrWs" target="_blank">this song</a> to get me through some especially rough Mondays.
+      </p>
+    </div> <!-- end "ABOUT" section -->
 
-		<!-- content -->
-	<div id="content" class="clearfix">
-    		
-		
-							<div id="page-4" class="type-page" itemscope itemtype="http://schema.org/Article">
-						
-			<!-- page-title -->
-			 
-				<h1 class="page-title" itemprop="name">Home</h1>
-				
-			<!-- /page-title -->
-
-			<div class="page-content entry-content" itemprop="articleBody">
-			
-				<h3>Featured Stories</h3>
-<p><span class="colio-shortcode-text"><div id="colio_home" class="colio-wrap colio-grid3 colio-thumb-padding  colio-filters-right"><ul class="colio-list"><li data-content="#colio_item_3765" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-300x300.png" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-300x300.png 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-150x150.png 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-100x100.png 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-200x200.png 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM.png 305w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">In response to the November 2016 election, Professor Bob Lee started a new kind of class: taiji for self defense. </div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>Live to Fight Another Day</h4></div></a></div></li><li data-content="#colio_item_3763" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2.jpg 1178w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">Whether you’re hanging out with friends or cramming in the library, Brandon and Anye have a playlist for your mood.  </div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>For Us By Us, Part I: Soul Studios</h4></div></a></div></li><li data-content="#colio_item_3761" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid.jpg 1118w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">Radio DJ Brittany Hodges talks about her connection to music and walks us through some of her favorite tracks. </div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>For Us By Us, Part II: OJ</h4></div></a></div></li><li data-content="#colio_item_3759" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin.jpg 1365w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">Talking social consciousness, his new EP, and video game challenges with DJ and music engineer Dustin Abade.</div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>For Us By Us, Part III: Knohisry</h4></div></a></div></li><li data-content="#colio_item_3747" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">Members of Brown University's Urban Environmental Lab (UEL) community reminisce about their favorite memories and what the UEL means to them as they come to terms with its possible future demolition.</div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>Stories of the UEL</h4></div></a></div></li><li data-content="#colio_item_3739" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-300x300.jpeg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-300x300.jpeg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-150x150.jpeg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-100x100.jpeg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-200x200.jpeg 200w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">Writing music is easier than you think… kind of.</div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>A Guide to Songwriting for Scared Musicians</h4></div></a></div></li><li data-content="#colio_item_3735" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1.jpg 1494w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">There are more to emojis than just fun ways to text people. From producer Justin Bai, we see that emojis reflect issues like diversity in gender and race as well as some other topics in representation.
-</div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>Why is there no hijab emoji?: Emoji representation</h4></div></a></div></li><li data-content="#colio_item_3726" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central.jpg 348w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">George cares a lot about his fish. </div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>Aqua-life Central</h4></div></a></div></li><li data-content="#colio_item_3718" data-tags=""><div class="colio-inner"><div class="colio-thumb"><div class="colio-view"><a class="colio-button colio-link" href="#">View Project</a></div><a class="colio-link" href="#"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-300x300.jpg" class="attachment-colio-item-thumb size-colio-item-thumb wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01.jpg 648w" sizes="(max-width: 300px) 100vw, 300px" /></a></div><a class="colio-link" href="#"><div class="colio-item-hover-descrip">
-Sit for a while and listen to the folk music of Monique Belisle, raconteur and French Canadian musician extraordinaire.</div></a><a class="colio-link" href="#"><div class="colio-summary"><h4>The Lost Art of Peanut Percussion</h4></div></a></div></li></ul><!-- .colio-list--><div id="colio_item_3765" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-300x300.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-300x300.png 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-150x150.png 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-100x100.png 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-200x200.png 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM.png 305w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/live-to-fight-another-day/">Live to Fight Another Day</a></h3><span class="colio-date">May 18, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Liza Yeager</span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/LivetoFightAnotherDay.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><p><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-100x100.png" width=100 height=100 /></div><div class="fap-track-content"><h3>Live to Fight Another Day</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/BobLeeFinal.mp3" title="Live to Fight Another Day" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-100x100.png" target="" data-meta="#fap-meta-live-to-fight-another-day" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/BobLeeFinal.mp3" title="Live to Fight Another Day" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/Screen-Shot-2017-05-18-at-6.49.30-AM-100x100.png" target="" data-meta="#fap-meta-live-to-fight-another-day" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div><br />
-In response to the November 2016 election, Professor Bob Lee started a new kind of class: taiji for self defense. </p>
-<p><span class="credit-line">MUSIC: Blue Dot Sessions<br />
-</span></p>
-<div id="themify_builder_content-3765" data-postid="3765" class="themify_builder_content themify_builder_content-3765 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3763" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2.jpg 1178w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/for-us-by-us-part-i-soul-studios/">For Us By Us, Part I: Soul Studios</a></h3><span class="colio-date">May 18, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Gloria Essien and Ari Snider </span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/SoulStudiosFinalTranscript-1.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><p><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>For Us By Us, Part I: Soul Studios</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/SoulStudiosFinal.mp3" title="For Us By Us, Part I: Soul Studios" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-100x100.jpg" target="" data-meta="#fap-meta-for-us-by-us-part-i-soul-studios" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/SoulStudiosFinal.mp3" title="For Us By Us, Part I: Soul Studios" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/soul-2-100x100.jpg" target="" data-meta="#fap-meta-for-us-by-us-part-i-soul-studios" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div><br />
-Whether you’re hanging out with friends or cramming in the library, Brandon and Anye have a playlist for your mood.<br />
-Photo Credit: Soul Studios<br />
-<span class="credit-line">MUSIC:“F.U.B.U.” by Solange, “Take Care” by Drake ft. Rihanna, “Deja Vu” by Big Sean and Jhene Aiko<br />
-</span></p>
-<div id="themify_builder_content-3763" data-postid="3763" class="themify_builder_content themify_builder_content-3763 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3761" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid.jpg 1118w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/for-us-by-us-part-ii-oj/">For Us By Us, Part II: OJ</a></h3><span class="colio-date">May 18, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Gloria Essien and Ari Snider </span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/OJFinalTranscript-1.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><p><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>For Us By Us, Part II: OJ</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/OJFinal.mp3" title="For Us By Us, Part II: OJ" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/britt-polaroid-100x100.jpg" target="" data-meta="#fap-meta-for-us-by-us-part-ii-oj" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a></div></div></div><br />
-Radio DJ Brittany Hodges talks about her connection to music and walks us through some of her favorite tracks.<br />
-Photo Credit: Brittany Hodges </p>
-<p><span class="credit-line">MUSIC: “F.U.B.U.” by Solange, “Pink + White” by Frank Ocean, “Moron” by Steve Lacey, “Know” by Syd, “I Don’t Know” by Nick Hakim<br />
-</span></p>
-<div id="themify_builder_content-3761" data-postid="3761" class="themify_builder_content themify_builder_content-3761 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3759" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/dustin.jpg 1365w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/for-us-by-us-part-iii-knohisry/">For Us By Us, Part III: Knohisry</a></h3><span class="colio-date">May 18, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Gloria Essien and Ari Snider </span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/KnohisryFinalTranscript-1.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><p><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>For Us By Us, Part III: Knohisry</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/KnohisryFinal.mp3" title="For Us By Us, Part III: Knohisry" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-100x100.jpg" target="" data-meta="#fap-meta-for-us-by-us-part-iii-knohisry" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/KnohisryFinal.mp3" title="For Us By Us, Part III: Knohisry" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/dustin-100x100.jpg" target="" data-meta="#fap-meta-for-us-by-us-part-iii-knohisry" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div><br />
-Talking social consciousness, his new EP, and video game challenges with DJ and music engineer Dustin Abade.<br />
-Photo Credit: Dustin Abade  </p>
-<p><span class="credit-line">MUSIC: “F.U.B.U” by Solange, “Flight”, “djandsanoj2”, “knoknorutgers”, “simpledubbeat”, “6&#215;4”, “boxahhpt2” by <a href="https://soundcloud.com/knohisry">Knohisry</a><br />
-</span></p>
-<div id="themify_builder_content-3759" data-postid="3759" class="themify_builder_content themify_builder_content-3759 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3747" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-200x200.jpg 200w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/stories-of-the-uel/">Stories of the UEL</a></h3><span class="colio-date">May 11, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Dorinda Fong</span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> Janice Gan</span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Transcript-1.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>Stories of the UEL</h3><p>
-</p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Final.mp3" title="Stories of the UEL" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-100x100.jpg" target="" data-meta="#fap-meta-stories-of-the-uel" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Final.mp3" title="Stories of the UEL" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/UEL-Illustration-100x100.jpg" target="" data-meta="#fap-meta-stories-of-the-uel" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div><span id="fap-meta-stories-of-the-uel" style="display: none;">
-</span></div>
-<p>Members of Brown University&#8217;s Urban Environmental Lab (UEL) community reminisce about their favorite memories and what the UEL means to them as they come to terms with its possible future demolition.</p>
-<p><span class="credit-line">MUSIC:“Golden Hour” by Podington Bear, “Dog and Pony Show” by Podington Bear, “Happy Whistle” by Scott Holmes, “Curious Process” by Podington Bear, “Solan” by Podington Bear</p>
-<div id="themify_builder_content-3747" data-postid="3747" class="themify_builder_content themify_builder_content-3747 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3739" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-300x300.jpeg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-300x300.jpeg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-150x150.jpeg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-100x100.jpeg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-200x200.jpeg 200w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/a-guide-to-songwriting-for-scared-musicians/">A Guide to Songwriting for Scared Musicians</a></h3><span class="colio-date">May 4, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Ilgın G. Korugan</span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/Ilgin-songwriting-transcript.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><p><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-100x100.jpeg" width=100 height=100 /></div><div class="fap-track-content"><h3>A Guide to Songwriting for Scared Musicians</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting.mp3" title="A Guide to Songwriting for Scared Musicians" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-100x100.jpeg" target="" data-meta="#fap-meta-a-guide-to-songwriting-for-scared-musicians" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting.mp3" title="A Guide to Songwriting for Scared Musicians" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/songwriting-100x100.jpeg" target="" data-meta="#fap-meta-a-guide-to-songwriting-for-scared-musicians" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div><br />
-Writing music is easier than you think… kind of.</p>
-<p><span class="credit-line">MUSIC: &#8220;Second Line&#8221; by Duke Ellington and<br />
-&#8220;My Little Brown Book&#8221; by Duke Ellington &#038; John Coltrane </span></p>
-<div id="themify_builder_content-3739" data-postid="3739" class="themify_builder_content themify_builder_content-3739 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3735" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-768x768.jpg 768w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-750x750.jpg 750w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1.jpg 1494w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/why-is-there-no-hijab-emoji-emoji-representation/">Why is there no hijab emoji?: Emoji representation</a></h3><span class="colio-date">May 4, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Justin Bai</span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/Emoji-representation-transcript.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><p><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>Why is there no hijab emoji?: Emoji representation</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/Emoji-representation.mp3" title="Why is there no hijab emoji?: Emoji representation" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-100x100.jpg" target="" data-meta="#fap-meta-why-is-there-no-hijab-emoji-emoji-representation" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/05/Emoji-representation.mp3" title="Why is there no hijab emoji?: Emoji representation" rel="http://www.nowherethis.org/wp-content/uploads/2017/05/FullSizeRender1-100x100.jpg" target="" data-meta="#fap-meta-why-is-there-no-hijab-emoji-emoji-representation" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div><br />
-There are more to emojis than just fun ways to text people. From producer Justin Bai, we see that emojis reflect issues like diversity in gender and race as well as some other topics in representation.<br />
-<span class="credit-line">MUSIC: <a href="http://freemusicarchive.org/music/Lee_Rosevere/Music_For_Podcasts/Lee_Rosevere_-_Music_For_Podcasts_-_05_Tech_Toys">“Tech Toys”</a> &#038; <a href="http://freemusicarchive.org/music/Lee_Rosevere/Music_For_Podcasts_3/11_Theme_from_Penguins_on_Parade">&#8220;Theme by Penguins on Parade&#8221;</a> by Lee Rosevere </span></p>
-<div id="themify_builder_content-3735" data-postid="3735" class="themify_builder_content themify_builder_content-3735 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3726" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central.jpg 348w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/aqualife-central/">Aqua-life Central</a></h3><span class="colio-date">April 27, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Graham Straus, with help from Mitchell Johnson</span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div><span class="colio-transcript"><a href="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-LifeCentralDraft.pdf">Transcript 
-			&raquo;</a></span><div class="colio-descrip"><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-1-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>Aqua Life Central</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-Life-Central.mp3" title="Aqua Life Central" rel="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-1-100x100.jpg" target="" data-meta="#fap-meta-aqua-life-central" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-Life-Central.mp3" title="Aqua Life Central" rel="http://www.nowherethis.org/wp-content/uploads/2017/04/Aqua-life-central-1-100x100.jpg" target="" data-meta="#fap-meta-aqua-life-central" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div>
-<p>George cares a lot about his fish. </p>
-<div id="themify_builder_content-3726" data-postid="3726" class="themify_builder_content themify_builder_content-3726 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --><div id="colio_item_3718" class="colio-content"><div class="colio-main"><div class="colio-image"><img width="300" height="300" src="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-300x300.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-300x300.jpg 300w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-450x450.jpg 450w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-150x150.jpg 150w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-100x100.jpg 100w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-200x200.jpg 200w, http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01.jpg 648w" sizes="(max-width: 300px) 100vw, 300px" /></div><h3 class="colio-title"><a href="http://www.nowherethis.org/story/the-lost-art-of-peanut-percussion/">The Lost Art of Peanut Percussion</a></h3><span class="colio-date">April 20, 2017</span> <div class="colio-producer-all"><span class="colio-producer-intro">Produced by:</span><span class="colio-producer"> Alex Hanesworth</span></div><div class="colio-illustrator-all"><span class="colio-illustrator-intro">Illustrated by:</span><span class="colio-illustrator"> </span></div> <div class="colio-descrip"><div class="fap-list-item fap-clearfix"><div style="width: 100px;height: 100px;" class="fap-cover-wrapper"><img src="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-100x100.jpg" width=100 height=100 /></div><div class="fap-track-content"><h3>The Lost Art of Peanut Percussion</h3><p></p><div><a href="http://www.nowherethis.org/wp-content/uploads/2017/04/The-Lost-Art-of-Peanut-Percussion.mp3" title="The Lost Art of Peanut Percussion" rel="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-100x100.jpg" target="" data-meta="#fap-meta-the-lost-art-of-peanut-percussion" class="fap-play-button fap-single-track" data-autoenqueue="no">Play</a><a href="http://www.nowherethis.org/wp-content/uploads/2017/04/The-Lost-Art-of-Peanut-Percussion.mp3" title="The Lost Art of Peanut Percussion" rel="http://www.nowherethis.org/wp-content/uploads/2017/04/Peanut-Percussion-01-100x100.jpg" target="" data-meta="#fap-meta-the-lost-art-of-peanut-percussion" class="fap-enqueue-button fap-single-track" data-enqueue="yes">Add to Playlist</a></div></div></div>
-<p>Sit for a while and listen to the folk music of Monique Belisle, raconteur and French Canadian musician extraordinaire.  Oral History tape courtesy of the <a href="http://www.rihs.org">Rhode Island Historical Society</a>.</p>
-<p>All the music in the piece is performed by Monique, Christy, Dena, and Priscilla and recorded by Geraldine.  A few short clips are included of Monique’s friend, Paul Pelletier, on the violin, and Le Vent du Nord’s foot percussion. </p>
-<div id="themify_builder_content-3718" data-postid="3718" class="themify_builder_content themify_builder_content-3718 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content --></div><br class="clear"></div></div><!-- .colio-content --></div><!-- .colio-wrap --></span></p>
-<div id="themify_builder_content-4" data-postid="4" class="themify_builder_content themify_builder_content-4 themify_builder themify_builder_front">
-	</div>
-<!-- /themify_builder_content -->            
-
-    
-								
-								
-				<!-- comments -->
-								<!-- /comments -->
-				
-			</div>
-			<!-- /.post-content -->
-		
-			</div><!-- /.type-page -->
-				
-		
-		        
-			</div>
-	<!-- /content -->
-    
-	
-</div>
-<!-- /layout-container -->
-	
-
-	    </div>
-	<!-- /body -->
-		
-	<div id="footerwrap">
-    
-    			<footer id="footer" class="pagewidth clearfix">
-				
-
-				
-	<div class="footer-widgets clearfix">
-
-								<div class=" first">
-							</div>
-		
-	</div>
-	<!-- /.footer-widgets -->
-
-	
-			<p class="back-top"><a href="#header">&uarr;</a></p>
-		
-				
-			<div class="footer-text clearfix">
-				<div class="one"><div class="footer-text">© 2015 Now Here This. All Rights Reserved.  Questions or concerns? <a href="http://www.nowherethis.org/contact/">Contact us</a>.</div> Design based off of Themify's Basic theme. </div>				<div class="two">Powered by <a href="http://wordpress.org">WordPress</a> &bull; <a href="http://themify.me">Themify WordPress Themes</a></div>			</div>
-			<!-- /footer-text --> 
-					</footer>
-		<!-- /#footer --> 
-        	</div>
-	<!-- /#footerwrap -->
-	
-</div>
-<!-- /#pagewrap -->
+  </div> <!-- END MAIN CONTAINER -->
 
 
-<!-- wp_footer -->
-				<!-- HTML starts here -->
-				<div id="fullwidthAudioPlayer" style="display: none;">
+  <div class="social">
+    <ul>
+      <li><a href="mailto:tuftspodcasters@gmail.com" target="_blank"><i class="fa fa-envelope fa-2x"></i></a></li>
+      <li><a href="https://twitter.com/tuftspodcasters" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+      <li><a href="https://facebook.com/TuftsPodcastNetwork" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+      <!--<li><a href="https://github.com/ashwu" target="_blank"><i class="fa fa-github fa-2x"></i></a> </li>-->
+    </ul> 
+  </div>
 
-								</div>
-				<!-- HTML ends here -->
-
-				<script type="text/javascript">
-
-					soundManager.url = "http://www.nowherethis.org/wp-content/plugins/fullwidth-audio-player/swf/";
-					soundManager.flashVersion = 9;
-					soundManager.useHTML5Audio = true;
-					soundManager.debugMode = false;
-
-										jQuery(document).ready(function(){
-												$ = jQuery.noConflict();
-
-						setTimeout(function() {
-
-							jQuery('#fullwidthAudioPlayer').fullwidthAudioPlayer({
-								opened: 1,
-								volume: 1,
-								playlist: 1,
-								autoPlay: 1,
-								autoLoad:0,
-								playNextWhenFinished: 1,
-								keyboard: 1,
-								socials: 1,
-								wrapperColor: '#dcc596',
-								mainColor: '#3c3c3c',
-								fillColor: '#b89c65',
-								metaColor: '#666666',
-								strokeColor: '#dcc596',
-								fillColorHover: '0',
-								activeTrackColor: '#f0e1c2',
-								wrapperPosition: window.fapPopupWin ? 'popup' : 'bottom',
-								mainPosition: 'center',
-								height: 70,
-								playlistHeight: 210,
-								coverSize: [50,50],
-								offset: 20,
-								twitterText: 'Share on Twitter',
-								facebookText: 'Share on Facebook',
-								soundcloudText: '',
-								downloadText: 'Download',
-								popupUrl: 'http://www.nowherethis.org/wp-content/plugins/fullwidth-audio-player/popup.html',
-								autoPopup: 0,
-								randomize: 0,
-								shuffle:1,
-								base64: 0,
-								sortable: 1,
-								hideOnMobile: 0,
-								loopPlaylist : 1,
-								storePlaylist: 0,
-								layout: 'fullwidth',
-								keepClosedOnceClosed: 0,
-								animatePageOnPlayerTop: 1,
-								openPlayerOnTrackPlay: 1,
-								popup: 1,
-								openLabel: '+',
-								closeLabel: '×'
-							});
-						}, 201);
-
-						jQuery('.fap-popup-player').click(function() {
-							jQuery.fullwidthAudioPlayer.popUp();
-							return false;
-						});
-
-						jQuery('.fwap-clear-button').on('click', function() {
-							jQuery.fullwidthAudioPlayer.clear();
-							return false;
-						});
-
-						var playText = "Play",
-							pauseText = "Pause",
-							currentTrackUrl = null,
-							selectedPlayButton = null;
-						jQuery('#fullwidthAudioPlayer').on('onFapTrackSelect', function(evt, trackData, playState) {
-
-							if(trackData.duration == null) {
-								//mp3,official.fm
-								currentTrackUrl = trackData.stream_url;
-
-								if(currentTrackUrl.search('official.fm') != -1) {
-
-									currentTrackUrl = trackData.permalink_url;
-
-								}
-							}
-							else {
-								//soundcloud
-								currentTrackUrl = trackData.permalink_url;
-
-							}
-
-							//pre-selected track button to play
-							if(selectedPlayButton != null) {
-								selectedPlayButton.text(playText);
-							}
-							//search for a play button with the same title
-							if( 0 ) {
-								currentTrackUrl = Base64.encode(currentTrackUrl);
-							}
-							else {
-								currentTrackUrl = currentTrackUrl.replace(/.*?:\/\//g, "").replace(/^www./, "");
-							}
-
-							selectedPlayButton = jQuery('.fap-play-button[href*="'+currentTrackUrl+'"]');
-							if(playState) {
-								selectedPlayButton.text(pauseText);
-							}
-							else {
-								selectedPlayButton.text(playText);
-							}
-						})
-						.on('onFapPlay', function() {
-							if(selectedPlayButton != null) {
-								selectedPlayButton.text(pauseText);
-							}
-						})
-						.on('onFapPause', function() {
-							if(selectedPlayButton != null) {
-								selectedPlayButton.text(playText);
-							}
-						});
-
-						var trackWrapperMargin = null;
-
-						jQuery(window).resize(function() {
-
-							jQuery('.fap-center').each(function(i, item) {
-
-								var $item = $(item),
-									$trackWrapper = $item.children('div:first'),
-									trackWrapperWidth = $trackWrapper.outerWidth(true),
-									numOfTracksPerRow = Math.floor($item.parent().width() / trackWrapperWidth);
-
-								if(trackWrapperMargin === null) {
-									trackWrapperMargin = parseInt($trackWrapper.css('marginRight'));
-								}
-
-								$item.children('div').css('marginRight', trackWrapperMargin)
-								.filter(':nth-child('+numOfTracksPerRow+'n)').css('marginRight', 0);
-
-								if(numOfTracksPerRow == 1) {
-									$item.width(trackWrapperWidth);
-								}
-								else {
-									$item.width((trackWrapperWidth * numOfTracksPerRow) - trackWrapperMargin);
-								}
+  <footer>
+    <p id="copyright">Designed by Jenna Fleischer</p>
+  <footer>
 
 
 
-							});
-
-						}).resize();
-
-
-					});
-				</script>
-
-				
-
-<script>
-    jQuery(document).ready(function () {
-		jQuery.post('http://www.nowherethis.org?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
-			var F = new Function ( response );
-			return( F() );
-		});
-    });
-</script><script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/bbpress/templates/default/js/editor.js?ver=2.5.12-6148'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/colio/jquery.easing.1.3.js?ver=1.3'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var colio_options = {"features":"{\"id\":\"colio_viewport_features\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","home":"{\"id\":\"colio_viewport_home\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","brown_storytellers":"{\"id\":\"colio_viewport_brown_storytellers\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","spoken_word":"{\"id\":\"colio_viewport_spoken_word\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","creative_nonfict":"{\"id\":\"colio_viewport_creative_nonfict\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","man_on_the_green":"{\"id\":\"colio_viewport_man_on_the_green\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}","stories":"{\"id\":\"colio_viewport_stories\",\"theme\":\"white\",\"navigation\":1,\"placement\":\"before\",\"layout\":\"fitRows\",\"themeColor\":\"#dcc596\",\"extraPhotos\":\"feed\",\"expandDuration\":500,\"expandEasing\":\"swing\",\"collapseDuration\":300,\"collapseEasing\":\"swing\",\"scrollPage\":1,\"scrollDuration\":300,\"scrollEasing\":\"swing\",\"syncScroll\":0,\"scrollOffset\":10,\"contentFadeIn\":500,\"contentFadeOut\":200,\"contentDelay\":200,\"transitionDuration\":400}"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/colio/jquery.colio.min.js?ver=1.1'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/colio/jquery.isotope.min.js?ver=2'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/colio/init.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/plugins/colio/themes/fancybox/jquery.fancybox.js?ver=1.3'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/js/carousel.min.js?ver=2.1.0'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/themify-builder/js/themify.builder.module.plugins.js?ver=2.1.0'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/js/waypoints.min.js?ver=4.8'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var tbLocalScript = {"isTouch":"","isAnimationActive":"1","isParallaxActive":"1","animationInviewSelectors":[".module.wow",".fly-in > .post",".fly-in .row_inner > .tb-column",".fade-in > .post",".fade-in .row_inner > .tb-column",".slide-up > .post",".slide-up .row_inner > .tb-column"],"createAnimationSelectors":[]};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/themify-builder/js/themify.builder.script.js?ver=2.1.0'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var themifyScript = {"lightbox":{"lightboxSelector":".lightbox","lightboxOn":true,"lightboxContentImages":false,"lightboxContentImagesSelector":".post-content a[href$=jpg],.page-content a[href$=jpg],.post-content a[href$=gif],.page-content a[href$=gif],.post-content a[href$=png],.page-content a[href$=png],.post-content a[href$=JPG],.page-content a[href$=JPG],.post-content a[href$=GIF],.page-content a[href$=GIF],.post-content a[href$=PNG],.page-content a[href$=PNG],.post-content a[href$=jpeg],.page-content a[href$=jpeg],.post-content a[href$=JPEG],.page-content a[href$=JPEG]","theme":"pp_default","social_tools":false,"allow_resize":true,"show_title":false,"overlay_gallery":false,"screenWidthNoLightbox":600,"deeplinking":false,"contentImagesAreas":".post, .type-page, .type-highlight, .type-slider","gallerySelector":".gallery-icon > a[href$=jpg],.gallery-icon > a[href$=gif],.gallery-icon > a[href$=png],.gallery-icon > a[href$=JPG],.gallery-icon > a[href$=GIF],.gallery-icon > a[href$=PNG],.gallery-icon > a[href$=jpeg],.gallery-icon > a[href$=JPEG]","lightboxGalleryOn":true},"lightboxContext":"#pagewrap","isTouch":"false"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/js/themify.script.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/js/themify.gallery.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-content/themes/basic/themify/js/lightbox.js?ver=2.1.0'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/comment-reply.min.js?ver=4.8'></script>
-<script type='text/javascript' src='http://www.nowherethis.org/wp-includes/js/wp-embed.min.js?ver=4.8'></script>
-
-<script>
-	jQuery(window).load(function(){ jQuery(window).resize(); });
-</script>
+  <!-- JAVASCRIPT -->
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 
 </body>
+
 </html>
