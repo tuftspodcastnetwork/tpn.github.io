@@ -3,23 +3,23 @@ $(document).ready(function(){
 
     $('#work').on('click', function(){
         $('.nav-item').css('color', '#adadad');
-        $('#fun-section').css('display','none');
+        $('#producers-section').css('display','none');
         $('#about-section').css('display','none');
         $('#work-section').css('display','block').css('transition','0.2s');
 
         $('#work').addClass('selected-nav');
-        $('#fun').removeClass('selected-nav');
+        $('#producers').removeClass('selected-nav');
         $('#about').removeClass('selected-nav');
         $('.nav-item', this).css('color', '#000');
     });
 
-    $('#fun').on('click',function() {
+    $('#producers').on('click',function() {
         $('.nav-item').css('color', '#adadad');
         $('#work-section').css('display','none');
         $('#about-section').css('display','none');
-        $('#fun-section').css('display','block').css('transition','0.2s');
+        $('#producers-section').css('display','block').css('transition','0.2s');
 
-        $('#fun').addClass('selected-nav');
+        $('#producers').addClass('selected-nav');
         $('#work').removeClass('selected-nav');
         $('#about').removeClass('selected-nav');
         $('.nav-item', this).css('color', '#000');
@@ -27,13 +27,13 @@ $(document).ready(function(){
 
     $('#about').on('click', function(){
         $('.nav-item').css('color', '#adadad');
-        $('#fun-section').css('display','none');
+        $('#producers-section').css('display','none');
         $('#work-section').css('display','none');
         $('#about-section').css('display','block').css('transition','0.2s');
 
         $('#about').addClass('selected-nav');
         $('#work').removeClass('selected-nav');
-        $('#fun').removeClass('selected-nav');
+        $('#producers').removeClass('selected-nav');
         $('.nav-item', this).css('color', '#000');
     });
 
@@ -74,11 +74,11 @@ $(document).ready(function(){
             var thumb = data[row]['thumbnail'];
             var print_id = data[row]['id'];
 
-            if (pub == 'fun') {
+            if (pub == 'producers') {
                 if (thumb.indexOf("projects") >= 0) {
-                    $('#fun-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a href="' + url + '" target="_blank"><figure class="effect-zoe"><img src="img/'+thumb+'" class="thumb"><figcaption><p class="headline">'+headline+' <span class="subhead">'+subhead+'</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">' + headline + '</p></div></div>');
+                    $('#producers-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a href="' + url + '" target="_blank"><figure class="effect-zoe"><img src="img/'+thumb+'" class="thumb"><figcaption><p class="headline">'+headline+' <span class="subhead">'+subhead+'</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">' + headline + '</p></div></div>');
                 }  else if (thumb.indexOf("print") >= 0) {
-                    $('#fun-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a title="' + headline + '" id="' + print_id + '" href="img/' + url + '"><figure class="effect-zoe"><img src="img/' + thumb + '" class="thumb"><figcaption><p class="headline">' + headline + ' <span class="subhead">' + subhead + '</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">'+ headline + '</p></div></div>');
+                    $('#producers-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a title="' + headline + '" id="' + print_id + '" href="img/' + url + '"><figure class="effect-zoe"><img src="img/' + thumb + '" class="thumb"><figcaption><p class="headline">' + headline + ' <span class="subhead">' + subhead + '</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">'+ headline + '</p></div></div>');
                     $("#"+print_id).fancybox()
                         .attr('rel', 'gallery')
                         .fancybox({
