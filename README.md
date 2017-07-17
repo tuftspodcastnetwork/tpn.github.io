@@ -1,2 +1,2 @@
-# tuftspodcastnetwork.githib.io
+# tuftspodcastnetwork.github.io
 Website in progress
