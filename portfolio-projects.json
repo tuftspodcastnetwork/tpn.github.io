@@ -1,9 +1,9 @@
 [
   {
     "pub" : "Stain of Denial",
-    "headline" : " 42nd Street Walking Tour",
+    "headline" : "42nd Street Walking Tour",
     "subhead" : "Eight iconic locations down one street in New York City",
-    "thumbnail" : <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247199209&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+    "thumbnail" : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247199209&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"
     "id" : ""
   },
   {
