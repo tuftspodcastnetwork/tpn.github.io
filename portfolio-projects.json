@@ -8,30 +8,6 @@
 	  "id" : ""
   },
   {
-	  "pub" : "new york magazine",
-	  "headline" : "Let’s add some nuance to the ‘Two Americas’ narrative",
-	  "subhead" : "Looking at each state through parts of the Human Development Index",
-	  "url" : "http://nymag.com/scienceofus/2017/03/lets-add-some-nuance-to-the-two-americas-narrative.html",
-	  "thumbnail" : "projects/two-americas.png",
-	  "id" : ""
-  },
-  {
-	  "pub" : "knight lab",
-	  "headline" : "Romaine",
-	  "subhead" : "A new way to choose courses",
-	  "url" : "https://romaine.herokuapp.com/",
-	  "thumbnail" : "projects/romaine.png",
-	  "id" : ""
-  },
-  {
-	  "pub" : "producers",
-	  "headline" : "Home of the Chicago Cubs and 'The Basement'",
-	  "subhead" : "(Four-piece display, acrylic on canvas)",
-	  "url" : "print/wrigley.png",
-	  "thumbnail" : "print/wrigley.png",
-	  "id" : "wrigley"
-  },
-  {
 	  "pub" : "producers",
 	  "headline" : "Buenos Aires: January 17-23, 2016",
 	  "subhead" : "(Video log)",
