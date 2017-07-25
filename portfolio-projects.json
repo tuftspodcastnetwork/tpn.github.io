@@ -1,10 +1,14 @@
 [
   {
-    "pub" : "Stain of Denial",
-    "headline" : "42nd Street Walking Tour",
-    "subhead" : "Eight iconic locations down one street in New York City",
-    "thumbnail" : "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/247199209&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
-    "id" : ""
+		"version": 1.0,
+		"type": "rich",
+		"provider_name": "Soundcloud",
+		"provider_url": "https://soundcloud.com/tuftspodcasters/stain-of-denial",
+		"height": 81,
+		"width": "100%",
+		"title": "Flickermood by Forss",
+		"description": "test",
+		"html": "test"
   },
   {
     "pub" : "new york magazine",
