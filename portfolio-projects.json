@@ -32,19 +32,19 @@
     "id" : ""
   },
   {
-    "pub" : "fun",
+    "pub" : "producers",
     "headline" : "Home of the Chicago Cubs and 'The Basement'",
     "subhead" : "(Four-piece display, acrylic on canvas)",
     "url" : "print/wrigley.png",
     "thumbnail" : "print/wrigley.png",
-    "id" : "wrigley"
+    "id" : ""
   },
   {
-    "pub" : "fun",
+    "pub" : "producers",
     "headline" : "Caricature of Kevin Tsukii",
     "subhead" : "(Acrylic on canvas)",
     "url" : "print/kevin.jpg",
     "thumbnail" : "print/kevin.png",
-    "id" : "kevin"
+    "id" : ""
   }
 ]
