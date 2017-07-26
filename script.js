@@ -73,26 +73,10 @@ $(document).ready(function(){
             var print_id = data[row]['id'];
 
             if (pub == 'people') {
-                if (thumb.indexOf("projects") >= 0) {
-                    $('#people-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a href="' + url + '" target="_blank"><figure class="effect-zoe"><img src="img/'+thumb+'" class="thumb"><figcaption><p class="headline">'+headline+' <span class="subhead">'+subhead+'</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">' + headline + '</p></div></div>');
-                }  else if (thumb.indexOf("print") >= 0) {
-                    $('#people-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a title="' + headline + '" id="' + print_id + '" href="img/' + url + '"><figure class="effect-zoe"><img src="img/' + thumb + '" class="thumb"><figcaption><p class="headline">' + headline + ' <span class="subhead">' + subhead + '</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">'+ headline + '</p></div></div>');
-                    $("#"+print_id).fancybox()
-                        .attr('rel', 'gallery')
-                        .fancybox({
-                            padding : 1
-                        });          
-                }     
+                $('#people-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><a href="' + url + '" target="_blank"><figure class="effect-zoe"><img src="img/' + thumb + '" class="thumb"><figcaption><p class="headline">' + headline + ' <span class="subhead">' + subhead + '</span></p></figcaption></figure></a><div class="mobile-caption"><p class="info">' + headline + '</p></div></div>');         
             } else if (thumb.indexOf("projects") >= 0) { 
                 $('#work-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><span class="ribbon">' + pub +'</span><a href="'+ url +'" target="_blank"><figure class="effect-zoe"><img src="img/' + thumb + '" class="thumb"><figcaption><p class="headline"><span class="pub">' + pub +'</span><br><br>' + headline + '<br><span class="subhead">'+ subhead +'</span></p></figcaption></figure></a><div class="mobile-caption"> <span class="pub">' + pub + '</span><p class="info">' + headline + '<br><span class="subhead">' + subhead +'</span></p></div></div>');
-            } else if (thumb.indexOf("print") >= 0) {
-                $('#work-section').append('<div class="col-md-4 col-sm-4 col-xs-12"><span class="ribbon">' + pub +'</span><a title="' + headline +'" href="img/'+ url +'" id="'+ print_id +'"><figure class="effect-zoe"><img src="img/' + thumb + '" class="thumb"><figcaption><p class="headline"><span class="pub">' + pub +'</span><br><br>' + headline + '<br><span class="subhead">'+ subhead +'</span></p></figcaption></figure></a><div class="mobile-caption"> <span class="pub">' + pub + '</span><p class="info">' + headline + '<br><span class="subhead">' + subhead +'</span></p></div></div>');
-                $("#"+print_id).fancybox()
-                    .attr('rel', 'gallery')
-                    .fancybox({
-                    padding : 1
-                    });
-            } 
+            }
         }
     }  
 });
