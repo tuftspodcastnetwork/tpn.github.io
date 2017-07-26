@@ -1,10 +1,31 @@
 [
   {
+    "pub" : "Tufts on a Friday Afternoon",
+    "headline" : "What happens at Tufts on a Friday afternoon? Jordan Abosch and I, Cooper McKim, walked around to find out.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/tufts-on-a-friday-afternoon",
+    "thumbnail" : "projects/friday.png"
+  },
+  {
+    "pub" : "Story Slam 'How I Met...'",
+    "headline" : "Our first Story Slam of the year features stories of how people met their best friends, Malia Obama, an inanimate board game, and more.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/sets/story-slam-how-i-met",
+    "thumbnail" : "projects/storyslam1.png"
+  },
+  {
     "pub" : "Grassroots Comedy",
     "headline" : "The Tufts Podcast Network's Cooper McKim sits down with two local organizers who are putting together one big comedy show to raise money for Bernie Sanders.",
     "subhead" : "",
     "url" : "https://soundcloud.com/tuftspodcasters/grassroots-comedy",
     "thumbnail" : "projects/grassroots.png"
+  },
+  {
+    "pub" : "Building Business At Tufts",
+    "headline" : "Listen in on student innovation at the first ever Tufts Scramble.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/building-business-at-tufts",
+    "thumbnail" : "projects/business.png"
   },
   {
     "pub" : "Provost Leads The 4th Annual Century Ride",
