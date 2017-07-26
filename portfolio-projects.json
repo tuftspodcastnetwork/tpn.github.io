@@ -1,8 +1,8 @@
 [
 	{
 		"pub" : "stain of denial",
-		"headline" : "Annika Leybold talks to Armenian students at Tufts about the importance of remembering the Armenian genocide.",
-		"subhead" : "help",
+		"headline" : "Annika Leybold talks to Armenian students at Tufts about the importance of remembering the Armenian genocide",
+		"subhead" : "what's going on",
 		"url" : "https://soundcloud.com/tuftspodcasters/stain-of-denial",
 		"thumbnail" : "img/denial.png",
 		"id" : ""
@@ -10,7 +10,7 @@
 	{
 		"pub" : "producers",
 		"headline" : "Jenna Fleischer",
-		"subhead" : "(Video log)",
+		"subhead" : "Producer, Treasurer",
 		"url" : "https://vimeo.com/152117566",
 		"thumbnail" : "projects/ba-vid.png",
 		"id" : ""
@@ -18,7 +18,7 @@
 	{
 		"pub" : "producers",
 		"headline" : "Bobby Familiar",
-		"subhead" : "(Video log)",
+		"subhead" : "Co-Editor in Chief",
 		"url" : "https://vimeo.com/152117566",
 		"thumbnail" : "projects/ba-vid.png",
 		"id" : ""
@@ -26,7 +26,7 @@
 	{
 		"pub" : "producers",
 		"headline" : "Judy Chen",
-		"subhead" : "(Video log)",
+		"subhead" : "Co-Editor in Chief",
 		"url" : "https://vimeo.com/152117566",
 		"thumbnail" : "projects/ba-vid.png",
 		"id" : ""
@@ -34,7 +34,7 @@
 	{
 		"pub" : "producers",
 		"headline" : "Megan Mooney",
-		"subhead" : "(Video log)",
+		"subhead" : "Producer",
 		"url" : "https://vimeo.com/152117566",
 		"thumbnail" : "projects/ba-vid.png",
 		"id" : ""
