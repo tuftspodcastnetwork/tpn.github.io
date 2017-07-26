@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    // MUST REFACTOR THIS
-
+    
     $('#work').on('click', function(){
         $('.nav-item').css('color', '#adadad');
         $('#producers-section').css('display','none');
