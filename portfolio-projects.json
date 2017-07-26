@@ -1,5 +1,47 @@
 [
   {
+    "pub" : "For Lack of a Better Word – Waldeinsamkeit",
+    "headline" : "Producers Evie Bellew and Elana Desantis discuss the dynamics of a word: waldeinsamkeit.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/for-lack-of-a-better-word-waldeinsamkeit",
+    "thumbnail" : "projects/waldeinsamkeit.png"
+  },
+  {
+    "pub" : "Interview with Tufts Confession's Joel Wasserman",
+    "headline" : "Joel Wasserman, is known for his high volume of public comments on the anonymous Facebook forum, Tufts Confessions.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/interview-with-tufts-confessions-joel-wasserman",
+    "thumbnail" : "projects/joel.png"
+  },
+  {
+    "pub" : "Dark Mirror - Edgar Allen Poe and Halloween",
+    "headline" : "Producer Annika Leybold sits down with Tufts Professor Nate Wolff to discuss the master of American Gothic literature: Edgar Allan Poe.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/dark-mirror-edgar-allen-poe-and-halloween",
+    "thumbnail" : "projects/poe.png"
+  },
+  {
+    "pub" : "Dating at Tufts",
+    "headline" : "Annika Leybold and Matt Ender-Silberman went to the campus center earlier this week, to learn about how students interact with the dating culture on campus.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/dating-at-tufts",
+    "thumbnail" : "projects/dating.png"
+  },
+  {
+    "pub" : "Tufts is Quirky!",
+    "headline" : "Judy Chen jumps into a telling investigation: Why does everyone call Tufts quirky?",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/tufts-is-quirky",
+    "thumbnail" : "projects/quirky.png"
+  },
+  {
+    "pub" : "A Father's Fight for Kazakhstan",
+    "headline" : "Ijan Zhakiya was eight years old when his father started a democratic revolution in Kazakhstan.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/a-fathers-fight-for-kazakhstan",
+    "thumbnail" : "projects/father.png"
+  },
+  {
     "pub" : "Mitski, Songwriting & Composition",
     "headline" : "",
     "subhead" : "",
@@ -8,21 +50,21 @@
   },
   {
     "pub" : "Irrelephant Ep.1 – Frankfurter",
-    "headline" : "A not-so-ordinary frat house at Tufts University. Things go bump in the night. A face appears at the window. An investigation begins, and does not end.",
+    "headline" : "A not-so-ordinary frat house at Tufts University.",
     "subhead" : "",
     "url" : "https://soundcloud.com/tuftspodcasters/frankfurter-irrelephant-ep-1",
     "thumbnail" : "projects/frank.png"
   },
   {
     "pub" : "The Sparrow Chronicle",
-    "headline" : "Xander slept in this morning, assuming it would be a normal day. He felt a ghost in his room, then looked up to find a small sparrow flapping around his room.",
+    "headline" : "Xander slept in this morning, assuming it would be a normal day.",
     "subhead" : "",
     "url" : "https://soundcloud.com/tuftspodcasters/the-sparrow-chronicle",
     "thumbnail" : "projects/sparrow.png"
   },
   {
     "pub" : "Tufts on a Friday Afternoon",
-    "headline" : "What happens at Tufts on a Friday afternoon? Jordan Abosch and I, Cooper McKim, walked around to find out.",
+    "headline" : "What happens at Tufts on a Friday afternoon? Jordan Abosch and Cooper McKim walked around to find out.",
     "subhead" : "",
     "url" : "https://soundcloud.com/tuftspodcasters/tufts-on-a-friday-afternoon",
     "thumbnail" : "projects/friday.png"
@@ -36,7 +78,7 @@
   },
   {
     "pub" : "Grassroots Comedy",
-    "headline" : "The Tufts Podcast Network's Cooper McKim sits down with two local organizers who are putting together one big comedy show to raise money for Bernie Sanders.",
+    "headline" : "Tufts Podcast Network's Cooper McKim sits down with two local organizers who are putting together one big comedy show to raise money for Bernie Sanders.",
     "subhead" : "",
     "url" : "https://soundcloud.com/tuftspodcasters/grassroots-comedy",
     "thumbnail" : "projects/grassroots.png"
