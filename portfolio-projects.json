@@ -6,10 +6,34 @@
     "url" : "https://soundcloud.com/tuftspodcasters/stain-of-denial",
     "thumbnail" : "projects/denial.png"
   },
+    {
+    "pub" : "people",
+    "headline" : "Judy Chen",
+    "subhead" : "Producer, Co-Editor in Chief",
+    "thumbnail" : "people/judy.jpg"
+  },
+  {
+    "pub" : "people",
+    "headline" : "Sidd Divakaruni",
+    "subhead" : "Administrative, Producer",
+    "thumbnail" : "people/sidd.jpg"
+  },
+  {
+    "pub" : "people",
+    "headline" : "Bobby Familiar",
+    "subhead" : "Producer, Co-Editor in Chief",
+    "thumbnail" : "people/misc.jpg"
+  },
   {
     "pub" : "people",
     "headline" : "Jenna Fleischer",
     "subhead" : "Producer, Treasurer",
     "thumbnail" : "people/jenna.png"
+  },
+  {
+    "pub" : "people",
+    "headline" : "Megan Mooney",
+    "subhead" : "Producer, Social Media",
+    "thumbnail" : "people/megan.jpg"
   }
 ]
