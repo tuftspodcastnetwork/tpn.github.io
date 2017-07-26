@@ -1,5 +1,26 @@
 [
   {
+    "pub" : "Mitski, Songwriting & Composition",
+    "headline" : "",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/mitski-songwriting-composition",
+    "thumbnail" : "projects/mitski.png"
+  },
+  {
+    "pub" : "Irrelephant Ep.1 – Frankfurter",
+    "headline" : "A not-so-ordinary frat house at Tufts University. Things go bump in the night. A face appears at the window. An investigation begins, and does not end.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/frankfurter-irrelephant-ep-1",
+    "thumbnail" : "projects/frank.png"
+  },
+  {
+    "pub" : "The Sparrow Chronicle",
+    "headline" : "Xander slept in this morning, assuming it would be a normal day. He felt a ghost in his room, then looked up to find a small sparrow flapping around his room.",
+    "subhead" : "",
+    "url" : "https://soundcloud.com/tuftspodcasters/the-sparrow-chronicle",
+    "thumbnail" : "projects/sparrow.png"
+  },
+  {
     "pub" : "Tufts on a Friday Afternoon",
     "headline" : "What happens at Tufts on a Friday afternoon? Jordan Abosch and I, Cooper McKim, walked around to find out.",
     "subhead" : "",
