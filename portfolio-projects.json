@@ -1,42 +1,50 @@
 [
-	{
-		"pub" : "stain of denial",
-		"headline" : "Annika Leybold talks to Armenian students at Tufts about the importance of remembering the Armenian genocide",
-		"subhead" : "what's going on",
-		"url" : "https://soundcloud.com/tuftspodcasters/stain-of-denial",
-		"thumbnail" : "img/denial.png",
-		"id" : ""
-	},
-	{
-		"pub" : "producers",
-		"headline" : "Jenna Fleischer",
-		"subhead" : "Producer, Treasurer",
-		"url" : "https://vimeo.com/152117566",
-		"thumbnail" : "projects/ba-vid.png",
-		"id" : ""
-	},
-	{
-		"pub" : "producers",
-		"headline" : "Bobby Familiar",
-		"subhead" : "Co-Editor in Chief",
-		"url" : "https://vimeo.com/152117566",
-		"thumbnail" : "projects/ba-vid.png",
-		"id" : ""
-	},
-	{
-		"pub" : "producers",
-		"headline" : "Judy Chen",
-		"subhead" : "Co-Editor in Chief",
-		"url" : "https://vimeo.com/152117566",
-		"thumbnail" : "projects/ba-vid.png",
-		"id" : ""
-	},
-	{
-		"pub" : "producers",
-		"headline" : "Megan Mooney",
-		"subhead" : "Producer",
-		"url" : "https://vimeo.com/152117566",
-		"thumbnail" : "projects/ba-vid.png",
-		"id" : ""
-	},
+  {
+    "pub" : "north by northwestern",
+    "headline" : "The many faces of the rock",
+    "subhead" : "We photographed the Rock every time it was painted this spring. Well, almost.",
+    "url" : "http://apps.northbynorthwestern.com/rock/",
+    "thumbnail" : "projects/rock.png",
+    "id" : ""
+  },
+  {
+    "pub" : "north by northwestern",
+    "headline" : "Dorm room ball pit",
+    "subhead" : "(Video)",
+    "url" : "http://www.northbynorthwestern.com/story/hinman-residents-turn-dorm-room-into-a-ball-pit/",
+    "thumbnail" : "projects/ballpit.png",
+    "id" : ""
+  },
+  {
+    "pub" : "knight lab",
+    "headline" : "Socialite (beta)",
+    "subhead" : "Article analysis by Tweets",
+    "url" : "http://nicolezhu.io/socialite/",
+    "thumbnail" : "projects/socialite.png",
+    "id" : ""
+  },
+  {
+    "pub" : "knight lab",
+    "headline" : "Romaine",
+    "subhead" : "A new way to choose courses",
+    "url" : "https://romaine.herokuapp.com/",
+    "thumbnail" : "projects/romaine.png",
+    "id" : ""
+  },
+  {
+    "pub" : "fun",
+    "headline" : "Home of the Chicago Cubs and 'The Basement'",
+    "subhead" : "(Four-piece display, acrylic on canvas)",
+    "url" : "print/wrigley.png",
+    "thumbnail" : "print/wrigley.png",
+    "id" : "wrigley"
+  },
+  {
+    "pub" : "fun",
+    "headline" : "Caricature of Kevin Tsukii",
+    "subhead" : "(Acrylic on canvas)",
+    "url" : "print/kevin.jpg",
+    "thumbnail" : "print/kevin.png",
+    "id" : "kevin"
+  }
 ]
