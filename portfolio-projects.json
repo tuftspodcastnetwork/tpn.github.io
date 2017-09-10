@@ -160,5 +160,11 @@
     "headline" : "Julia Press",
     "subhead" : "Producer",
     "thumbnail" : "people/julia.jpg"
+  },
+    {
+    "pub" : "people",
+    "headline" : "Shirley Wang",
+    "subhead" : "Producer",
+    "thumbnail" : "people/shirley.jpg"
   }
 ]
