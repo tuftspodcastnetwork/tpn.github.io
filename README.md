@@ -1,5 +1,5 @@
 # tuftspodcastnetwork.github.io
-Website in progress
+Website in a work in progress
 
 How to upload your podcast to the website:
 1. Make sure your podcast has been uploaded to Soundcloud.
@@ -10,7 +10,7 @@ How to upload your podcast to the website:
   ```
   {
     "pub" : "[NAME OF PODCAST]",
-    "headline" : "[DESCRIPTION OF PODCAST]",
+    "headline" : "[SHORT DESCRIPTION OF PODCAST]",
     "subhead" : "",
     "url" : "[COPY AND PASTE FROM SOUNDCLOUD PAGE FOR PODCAST]",
     "thumbnail" : "projects/[IMAGE FILE NAME.EXTENSION]"
