@@ -134,7 +134,7 @@
   {
     "pub" : "people",
     "headline" : "Sidd Divakaruni",
-    "subhead" : "Administrator, Producer",
+    "subhead" : "Administrator",
     "thumbnail" : "people/sidd.jpg"
   },
   {
@@ -148,18 +148,6 @@
     "headline" : "Jenna Fleischer",
     "subhead" : "Producer, Treasurer, Webmaster",
     "thumbnail" : "people/jenna.jpg"
-  },
-  {
-    "pub" : "people",
-    "headline" : "Megan Mooney",
-    "subhead" : "Producer, Social Media Manager",
-    "thumbnail" : "people/megan.jpg"
-  },
-  {
-    "pub" : "people",
-    "headline" : "Julia Press",
-    "subhead" : "Producer",
-    "thumbnail" : "people/julia.jpg"
   },
     {
     "pub" : "people",
